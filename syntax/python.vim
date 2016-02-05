@@ -96,6 +96,11 @@ elseif exists("b:current_syntax")
   finish
 endif
 
+" Set custom folding, added by Tomek
+setlocal foldmethod=indent
+set foldlevelstart=2
+set foldnestmax=2
+
 "
 " Commands
 "
