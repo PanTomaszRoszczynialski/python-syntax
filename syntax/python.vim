@@ -155,6 +155,10 @@ endif
 " Keywords
 "
 
+" Personalised keywords first
+
+syn keyword pythonStatement	self
+
 syn keyword pythonStatement     break continue del
 syn keyword pythonStatement     exec return
 syn keyword pythonStatement     pass raise
